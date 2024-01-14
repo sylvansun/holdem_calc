@@ -1,1 +1,9 @@
-*.pyc
+# MAC OS
+.DS_Store
+
+# python cache files 
+__pycache__/
+
+# others
+.idea/
+.vscode/

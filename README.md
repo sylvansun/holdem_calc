@@ -250,10 +250,10 @@ In order to calculate multiple hands in a single run, the user has the choice to
 Compute how likely a hand is to win against a random pair of hole cards. You can only specify one set of hole cards as unknown.
 **Note:** Performing calculations with unknown hole cards takes an excessively long time if community cards are not specified.
 
-	$ python holdem_calc.py As Ks ? ? -b Ac 2h 6c
+	$ python holdem_calc.py As Ks N N -b Ac 2h 6c
 	Winning Percentages:
 	(As, Ks) :  0.858660611667
-	(?, ?) :  0.135034900345
+	(N, N) :  0.135034900345
 	Ties:  0.00630448798811
 
 	Player1 Histogram:
